@@ -1,0 +1,90 @@
+/*
+
+filename: [CSS Style Sheet]
+
+author: [George Salib]
+
+created: [28/03/2025]
+
+last modified: [28/03/2025]
+
+description: [lab05.html]
+
+*/
+
+aside:hover {
+    display: block;
+}
+
+.menu {
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+aside {
+    border: 2px solid #ccc;
+    margin: 1em;
+    padding: 1em;
+    background-image: url('images/fade.jpg');
+    background-size: cover;
+    width: 30%;
+    float: right;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+header {
+    border: 1px solid darkgray;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: lightgray;
+    text-align: center;
+}
+
+footer {
+    border-top: 4px double #333;
+    clear: both;
+}
+
+table {
+    margin: auto;
+}
+
+#lists {
+    float: left;
+    width: 45%;
+}
+
+#tables {
+    float: right;
+    width: 45%;
+}
+
+#hyperlinks {
+    clear: both;
+}
+
+footer p {
+    display: inline-block;
+    width: 33%;
+}
+
+footer p:first-child {
+    float: left;
+}
+
+footer p:nth-child(2) {
+    text-align: center;
+}
+
+footer p:last-child {
+    float: right;
+    text-align: right;
+}
+
+article {
+    min-width: 30em;
+}
+
